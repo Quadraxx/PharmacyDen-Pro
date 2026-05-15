@@ -54,20 +54,20 @@ Projeyi kendi bilgisayarınızda çalıştırmak veya GitHub'a yüklemek için:
 ### 1. Karşılanma ve Kurulum
 Uygulama, yeni kullanıcıları modern bir karşılama ekranı ve özellik tanıtımı ile karşılar.
 <p align="center">
-  <img src="screenshots/onboarding.png" width="400" alt="Hoş Geldiniz">
+  <img src="PharmacyDen/screenshots/onboarding.png" width="400" alt="Hoş Geldiniz">
 </p>
 
 ### 2. Dashboard ve Eczane Listeleri
 Şehir genelindeki tüm eczaneler ve güncel nöbetçiler harita üzerinde dinamik olarak listelenir.
 | Tüm Eczaneler (Standart) | Nöbetçi Eczaneler (Kırmızı) |
 | :---: | :---: |
-| ![Ana Sayfa](screenshots/ana_sayfa.png) | ![Nöbetçiler](screenshots/nobetci_listesi.png) |
+| ![Ana Sayfa](PharmacyDen/screenshots/ana_sayfa.png) | ![Nöbetçiler](PharmacyDen/screenshots/nobetci_listesi.png) |
 
 ### 3. Gelişmiş Harita ve Mobil Deneyim
 Uydu görünümü ile detaylı inceleme yapabilir veya mobil cihazlardan kolayca erişebilirsiniz.
 | Uydu Görünümü | Mobil Arayüz |
 | :---: | :---: |
-| ![Uydu](screenshots/uydu_gorunumu.png) | ![Mobil](PharmacyDen/screenshots/mobil.png) |
+| ![Uydu](PharmacyDen/screenshots/uydu_gorunumu.png) | ![Mobil](PharmacyDen/screenshots/mobil.png) |
 
 
 
@@ -79,5 +79,5 @@ Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` d
 
 ---
 
-**Geliştiren:** [Adınız Soyadınız]  
-**İletişim:** [E-posta veya LinkedIn Adresiniz]
+**Geliştiren:** [Hüseyin AKIN]  
+**İletişim:** [husohusom8@gmail.com]
