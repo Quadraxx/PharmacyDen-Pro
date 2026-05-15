@@ -38,7 +38,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak veya GitHub'a yüklemek için:
 
 1.  **Repoyu Klonlayın:**
     ```bash
-    git clone https://github.com/kullaniciadi/PharmacyDen.git
+    git clone https://github.com/Quadraxx/PharmacyDen-Pro.git
     ```
 2.  **Dosyayı Açın:** `index.html` dosyasını herhangi bir modern tarayıcıda açın.
 3.  **API Anahtarınızı Girin:**
