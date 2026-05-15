@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PharmacyDen Pro: Denizli'nin en gelişmiş sağlık ve eczane asistanı.">
+  <title>PharmacyDen Pro | Akıllı Sağlık Asistanı</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splashScreen">
+    <div class="splash-content">
+      <div class="heartbeat">💊</div>
+      <h1>PharmacyDen Pro</h1>
+      <p>Sağlığınız için hazırlanıyor...</p>
+      <div class="loader-bar"></div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <!-- Welcome & API Key Modal -->
+  <div id="keyModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content onboarding">
+      <div class="onboarding-header">
+        <span class="app-icon">📍</span>
+        <h1>Hoş Geldiniz!</h1>
+        <p>Denizli'nin en gelişmiş eczane ve sağlık asistanı PharmacyDen Pro'ya adım attınız.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-item"><span>🌙</span> Nöbetçi Eczaneler</div>
+        <div class="feature-item"><span>📏</span> Mesafe Hesaplama</div>
+        <div class="feature-item"><span>🎤</span> Sesli Arama</div>
+        <div class="feature-item"><span>🌍</span> Uydu Görünümü</div>
+      </div>
+
+      <div class="setup-section">
+        <h3>Kurulum Gerekli</h3>
+        <p>Devam etmek için lütfen CollectAPI anahtarınızı girin:</p>
+        <input type="password" id="apiKeyInput" placeholder="API Anahtarınızı yapıştırın...">
+        <button id="saveKeyBtn" class="primary-btn">Kurulumu Tamamla & Başlat</button>
+        <a href="https://collectapi.com/tr/api/health/nobetci-eczane-api" target="_blank" class="helper-link">Nasıl anahtar alırım?</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="ui-overlay">
+
+    
+    <div class="floating-sidebar">
+      
+      <div class="sidebar-header">
+        <div class="brand">
+          <span>🛡️</span> PharmacyDen Pro
+        </div>
+
+        <div class="search-wrapper">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Eczane veya ilçe söyleyin..."
+          >
+          <button id="btnVoice" title="Sesli Ara">🎤</button>
+        </div>
+      </div>
+
+      <div class="tabs-container">
+        <button class="tab-btn active" id="btnDuty">🌙 Nöbetçiler</button>
+        <button class="tab-btn" id="btnAll">☀️ Tüm Liste</button>
+      </div>
+
+      <div class="districts-wrapper" id="districtsContainer"></div>
+
+      <div class="list-content" id="eczaneList"></div>
+
+      <!-- Emergency Panel -->
+      <div class="emergency-panel">
+        <a href="tel:112" class="emergency-btn">🚑 112 Acil</a>
+        <div class="stats-mini" id="statsPanel">Yükleniyor...</div>
+      </div>
+
+    </div>
+
+    <div class="map-controls">
+      <button class="control-btn" id="btnSettings" title="Ayarlar">⚙️</button>
+      <button class="control-btn" id="btnLayerToggle" title="Uydu Görünümü">🌍</button>
+      <button class="control-btn" id="btnFindMe" title="Konumumu Bul">🎯</button>
+
+      <button class="control-btn" id="btnZoomIn">+</button>
+      <button class="control-btn" id="btnZoomOut">-</button>
+    </div>
+
+  </div>
+
+
+    </div>
+
+    <div class="map-controls">
+      <button class="control-btn" id="btnFindMe" title="Konumumu Bul">🎯</button>
+      <button class="control-btn" id="btnZoomIn" title="Yaklaş">+</button>
+      <button class="control-btn" id="btnZoomOut" title="Uzaklaş">-</button>
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+ 
