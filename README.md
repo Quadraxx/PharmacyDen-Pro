@@ -67,7 +67,7 @@ Uygulama, yeni kullanıcıları modern bir karşılama ekranı ve özellik tanı
 Uydu görünümü ile detaylı inceleme yapabilir veya mobil cihazlardan kolayca erişebilirsiniz.
 | Uydu Görünümü | Mobil Arayüz |
 | :---: | :---: |
-| ![Uydu](screenshots/uydu_gorunumu.png) | ![Mobil](screenshots/mobil.png) |
+| ![Uydu](screenshots/uydu_gorunumu.png) | ![Mobil](PharmacyDen/screenshots/mobil.png) |
 
 
 
